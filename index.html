@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio ONE - Criptografia</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+  <hr>
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto" name = "lb1" id = "lb1">*Apenas letras minúsculas, sem acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui">
+        <input class="btn" type="submit" value="CRIPTOGRAFAR!" id="btn-cripto">
+        <input class="btn" type="submit" value="DESCRIPTOGRAFAR!" id="btn-descripto">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <label for="texto-msg" name = "lb2" id="lb2">Mensagem criptografada:</label>
+      <input class="text-input" type="text" name= "texto-msg" id="msg"></input>
+      <input class="btn" type="submit" value="COPIAR" id="btn-copy">
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
